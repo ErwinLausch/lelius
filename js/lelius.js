@@ -10,12 +10,7 @@
         jQuery(window).load(function () {
             jQuery("#status").fadeOut();
             jQuery("#preloader").delay(1000).fadeOut("slow");
-        })
-
-        /***********************************************
-         * Universal Parallax
-         * Copyright - ForBetterWeb.com
-         ***********************************************/
+        }
 
         var introHeader = $('.intro'),
             intro = $('.intro');
