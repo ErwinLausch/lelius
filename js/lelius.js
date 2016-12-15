@@ -1,4 +1,5 @@
 
+
 (function($){
     "use strict";
     $(document).ready(function() {
@@ -10,7 +11,7 @@
         jQuery(window).load(function () {
             jQuery("#status").fadeOut();
             jQuery("#preloader").delay(1000).fadeOut("slow");
-        }
+        })
 
         var introHeader = $('.intro'),
             intro = $('.intro');
